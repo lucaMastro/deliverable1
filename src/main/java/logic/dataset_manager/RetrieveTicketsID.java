@@ -27,18 +27,17 @@ public class RetrieveTicketsID {
 
         this.jsonArray = new JSONArray();
 
-        Integer j = 0, i = 0;
+        Integer j = 0;
+        Integer i = 0;
         //Get JSON API for closed bugs w/ AV in the project
         do {
             //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
             j = i + 1000;
             String url = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22"
-                    + projName + "%22AND%22issueType%22=%22Bug%22AND(%22status%22=%22closed%22OR"
+                    + this.projectName + "%22AND%22issueType%22=%22Bug%22AND(%22status%22=%22closed%22OR"
                     + "%22status%22=%22resolved%22)AND%22resolution%22=%22fixed%22&fields=key,resolutiondate,versions,created&startAt="
                     + i.toString() + "&maxResults=" + j.toString();
-            /*String url = "https://issues.apache.org/jira/rest/api/2/search?jql=project=%22"
-                    + projName + "%22&fields=key,resolutiondate,versions,created&startAt="
-                    + i.toString() + "&maxResults=" + j.toString();*/
+
             JSONObject json = readJsonFromUrl(url);
 
             this.jsonArray = concatenate(this.jsonArray, json.getJSONArray("issues"));
@@ -72,7 +71,7 @@ public class RetrieveTicketsID {
         return sb.toString();
     }
 
-    public static JSONArray readJsonArrayFromUrl(String url) throws IOException, JSONException {
+    /*public static JSONArray readJsonArrayFromUrl(String url) throws IOException, JSONException {
         InputStream is = new URL(url).openStream();
         try {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
@@ -82,15 +81,14 @@ public class RetrieveTicketsID {
         } finally {
             is.close();
         }
-    }
+    }*/
 
     public static JSONObject readJsonFromUrl(String url) throws IOException, JSONException {
         InputStream is = new URL(url).openStream();
         try {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
             String jsonText = readAll(rd);
-            JSONObject json = new JSONObject(jsonText);
-            return json;
+            return new JSONObject(jsonText);
         } finally {
             is.close();
         }
@@ -98,8 +96,8 @@ public class RetrieveTicketsID {
 
     public static void main(String[] args) throws IOException, JSONException {
         String projectName = "MAHOUT";
-        String path_file = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
-        RetrieveTicketsID retrieveTicketsID = new RetrieveTicketsID(projectName, path_file);
+        String pathFile = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
+        RetrieveTicketsID retrieveTicketsID = new RetrieveTicketsID(projectName, pathFile);
         TreeMap<String, Integer> map = new MyMap(retrieveTicketsID.jsonArray);
         retrieveTicketsID.fileManager.writeToFile(map.toString());
     }

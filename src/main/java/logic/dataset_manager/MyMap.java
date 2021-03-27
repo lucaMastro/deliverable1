@@ -66,11 +66,11 @@ public class MyMap extends TreeMap<String, Integer> {
             and slice
          */
         String completeDate = (date.split("T")[0]);
-        //{ Year, month, day}
+        /* it returns { Year, month, day} */
         String[] parts = completeDate.split("-");
-        //format: %m-%Y
-        String myDate = parts[1] + "-" + parts[0];
-        return myDate;
+        /* format: %m-%Y */
+        return parts[1] + "-" + parts[0];
+        
     }
 
     @Override
