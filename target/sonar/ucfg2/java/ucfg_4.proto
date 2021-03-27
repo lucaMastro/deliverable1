@@ -1,0 +1,53 @@
+
+=RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java7 7(!"4*™
+2|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java; ;(
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java; ;( 
+%3java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+""2	append(C)*
+3*Ğ
+3|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java: :(ÄÁ
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java: :(	
+%2int"java.io.Reader#read()I*
+
+rdjava.io.Reader2read()*
+2
+1*Ú
+4|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java8 8(.¹¶
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java8 8(,
+%0java.lang.StringBuilder"java.lang.StringBuilderË
+È
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java8 8(.
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilderÇ
+Ä
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java8 8(/
+sbjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilder*
+3*›
+1|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java= =(üù
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java= =(
+%4java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuilder2
+toString()"˜
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.java= =(
+
+%4java.lang.String:
+rdjava.io.ReaderB"
+RetrieveTicketsID
