@@ -66,11 +66,11 @@ public class MyMap extends TreeMap<String, Integer> {
             and slice
          */
         String completeDate = (date.split("T")[0]);
-        /* it returns { Year, month, day} */
+        /* it returns  [Year, month, day] */
         String[] parts = completeDate.split("-");
         /* format: %m-%Y */
         return parts[1] + "-" + parts[0];
-        
+
     }
 
     @Override
@@ -78,7 +78,9 @@ public class MyMap extends TreeMap<String, Integer> {
         StringBuilder bld = new StringBuilder();
         Integer value;
         String ret = "";
-        for (String key : this.keySet()){
+        String key;
+        for (Map.Entry<String,Integer> entry : this.entrySet()){
+            key = entry.getKey();
             value = this.get(key);
             ret = bld.append(key).append(",").append(value.toString()).append("\n").toString();
         }

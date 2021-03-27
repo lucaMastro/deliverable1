@@ -847,11 +847,10 @@ Oformat(Ljava/math/BigDecimal;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)
 !getNegativePrefixFieldPositions()Sjava.text.DecimalFormat#getNegativePrefixFieldPositions()[Ljava/text/FieldPosition;T
 getPositivePrefix()=java.text.DecimalFormat#getPositivePrefix()Ljava/lang/String;d
 getBigDecimalMultiplier()Gjava.text.DecimalFormat#getBigDecimalMultiplier()Ljava/math/BigDecimal;[
-isDecimalSeparatorAlwaysShown()8java.text.DecimalFormat#isDecimalSeparatorAlwaysShown()Z‡
+isDecimalSeparatorAlwaysShown()8java.text.DecimalFormat#isDecimalSeparatorAlwaysShown()ZÕ
 'logic.dataset_manager.RetrieveTicketsIDjava.lang.Object™
 5concatenate(Lorg/json/JSONArray;Lorg/json/JSONArray;)qlogic.dataset_manager.RetrieveTicketsID#concatenate(Lorg/json/JSONArray;Lorg/json/JSONArray;)Lorg/json/JSONArray;p
-readAll(Ljava/io/Reader;)Slogic.dataset_manager.RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;ê
-(readJsonArrayFromUrl(Ljava/lang/String;)dlogic.dataset_manager.RetrieveTicketsID#readJsonArrayFromUrl(Ljava/lang/String;)Lorg/json/JSONArray;á
+readAll(Ljava/io/Reader;)Slogic.dataset_manager.RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;á
 #readJsonFromUrl(Ljava/lang/String;)`logic.dataset_manager.RetrieveTicketsID#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;_
 main([Ljava/lang/String;)Blogic.dataset_manager.RetrieveTicketsID#main([Ljava/lang/String;)VÖ
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Ulogic.dataset_manager.RetrieveTicketsID#<init>(Ljava/lang/String;Ljava/lang/String;)Vﬂ
