@@ -1,3 +1,5 @@
+package logic.dataset_manager;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -64,20 +66,21 @@ public class MyMap extends TreeMap<String, Integer> {
             and slice
          */
         String completeDate = (date.split("T")[0]);
-        String[] parts = completeDate.split("-"); //{ Year, month, day}
-        String my_date = parts[1] + "-" + parts[0]; //format: %m-%Y
-        return my_date;
+        //{ Year, month, day}
+        String[] parts = completeDate.split("-");
+        //format: %m-%Y
+        String myDate = parts[1] + "-" + parts[0];
+        return myDate;
     }
 
     @Override
     public String toString(){
-        int i;
-        String ret = "";
+        StringBuilder bld = new StringBuilder();
         Integer value;
-
+        String ret = "";
         for (String key : this.keySet()){
             value = this.get(key);
-            ret = ret + key + " : " + value.toString() + "\n";
+            ret = bld.append(key).append(",").append(value.toString()).append("\n").toString();
         }
         return ret;
     }
@@ -86,23 +89,36 @@ public class MyMap extends TreeMap<String, Integer> {
         String start = this.firstKey();
         String last = this.lastKey();
 
-        Integer starting_year = Integer.parseInt(start.split("-")[1]);
-        Integer starting_month = Integer.parseInt(start.split("-")[0]);
+        Integer startingYear = Integer.parseInt(start.split("-")[1]);
+        Integer startingMonth = Integer.parseInt(start.split("-")[0]);
 
-        Integer ending_year = Integer.parseInt(last.split("-")[1]);
-        Integer ending_month = Integer.parseInt(last.split("-")[0]);
+        Integer endingYear = Integer.parseInt(last.split("-")[1]);
+        Integer endingMonth = Integer.parseInt(last.split("-")[0]);
 
         Integer year;
         Integer month;
+        Integer startingMonthIndex;
+        Integer endingMonthIndex;
         DecimalFormat decimalFormat = new DecimalFormat("00");
         String newDate = "";
-        for (year = starting_year; year <= ending_year; year++){
-            for (month = 1; month <= 12; month++){
-                newDate = decimalFormat.format(month);
-                newDate += "-" + year.toString();
+        StringBuilder bld = new StringBuilder();
+        for (year = startingYear; year <= endingYear; year++){
+            if (year.equals(startingYear))
+                startingMonthIndex = startingMonth;
+            else
+                startingMonthIndex = 1;
 
-                if (this.get(newDate) == null)
-                    this.put(newDate, 0);
+            if (year.equals(endingYear))
+                endingMonthIndex = endingMonth;
+            else
+                endingMonthIndex = 12;
+
+            for (month = startingMonthIndex; month <= endingMonthIndex; month++){
+
+                newDate = decimalFormat.format(month);
+                newDate = bld.append(newDate).append("-").append(year.toString()).toString();
+
+                this.putIfAbsent(newDate, 0);
             }
         }
     }

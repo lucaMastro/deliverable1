@@ -1,62 +1,62 @@
 
-JRetrieveTicketsID#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL L(,"8*Â
+NRetrieveTicketsID#readJsonArrayFromUrl(Ljava/lang/String;)Lorg/json/JSONArray;|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaI I(0"8*‚
 2|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaQ Q(7¡
-æ
-|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaQ Q(7
-jsonorg.json.JSONObject"__id*
-
-%9org.json.JSONObject"ù
-|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaR R(
-
-jsonorg.json.JSONObject*ı
-3|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaP P(*ø
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaN N(5ø
 º
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaP P(*
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaN N(5
+jsonorg.json.JSONArray"__id*
+
+%9org.json.JSONArray"ú
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO O(
+
+jsonorg.json.JSONArray*Ò
+3|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M(*ø
+º
+|
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M(*
 jsonTextjava.lang.String"__id*
 
-%8java.lang.String±Æ
+%8java.lang.StringØ¨
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaQ" Q(,
-%9org.json.JSONObject"org.json.JSONObjectˆ
-Û
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaN! N(*
+%9org.json.JSONArray"org.json.JSONArrayÙ
+Ò
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaQ Q(6
-%10"/org.json.JSONObject#<init>(Ljava/lang/String;)V*
-
-%9org.json.JSONObject*
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaN N(4
+%10".org.json.JSONArray#<init>(Ljava/lang/String;)V*
+
+%9org.json.JSONArray*
 
 jsonTextjava.lang.String*
 2*‡
 4|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO O(h≈
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL L(h≈
 ¬
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO O(h
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL L(h
 rdjava.io.BufferedReader"__id*
 
 %6java.io.BufferedReaderè
 å
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaP P()
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M()
 %8java.lang.String"=RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;*"
 RetrieveTicketsID*
 
 rdjava.io.BufferedReader*
 3*ø
 5|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO  O(g∑¥
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL  L(g∑¥
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO$ O(2
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL$ L(2
 %6java.io.BufferedReader"java.io.BufferedReader¸
 ˘
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO  O(g
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL  L(g
 %7"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*
 
 %6java.io.BufferedReader*!
@@ -64,13 +64,13 @@ r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/s
 %4java.io.InputStreamReader*
 4*Ü
 6|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO3 O(fΩ∫
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL3 L(fΩ∫
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO7 O(H
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL7 L(H
 %4java.io.InputStreamReader"java.io.InputStreamReaderΩ
 ∫
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaO3 O(f
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaL3 L(f
 %5"Rjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V*!
 
 %4java.io.InputStreamReader*
@@ -80,35 +80,35 @@ r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/s
 %3java.nio.charset.Charset*
 5*£
 7|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaOI O(Kö
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaLI L(Kö
 ó
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaOM O(e
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaLM L(e
 %3java.nio.charset.Charset"Njava.nio.charset.Charset#forName(Ljava/lang/String;)Ljava/nio/charset/Charset;*"
 java.nio.charset.Charset*	
 UTF-8*
 6*∆
 8|
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM! M($£†
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaJ! J($£†
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M( 
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaJ J( 
 %0java.net.URL"java.net.URL‚
 ﬂ
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M(%
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaJ J(%
 %1"(java.net.URL#<init>(Ljava/lang/String;)V*
 
 %0java.net.URL*
 
 urljava.lang.StringÌ
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M(2
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaJ J(2
 %2java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
 
 %0java.net.URL2openStream()ø
 º
 |
-r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaM M(3
+r/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/RetrieveTicketsID.javaJ J(3
 isjava.io.InputStream"__id*
 
 %2java.io.InputStream*

@@ -1,3 +1,5 @@
+package logic.dataset_manager;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -94,37 +96,11 @@ public class RetrieveTicketsID {
         }
     }
 
-
-
-
-
     public static void main(String[] args) throws IOException, JSONException {
         String projectName = "MAHOUT";
-        String path_file = "/home/luca/Scrivania/sorted";
+        String path_file = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
         RetrieveTicketsID retrieveTicketsID = new RetrieveTicketsID(projectName, path_file);
         TreeMap<String, Integer> map = new MyMap(retrieveTicketsID.jsonArray);
         retrieveTicketsID.fileManager.writeToFile(map.toString());
     }
-
-
-
-    /*
-    public static void main(String[] args) throws IOException, JSONException {
-
-            for (; i < total && i < j; i++) {
-                //Iterate through each bug
-                String key = issues.getJSONObject(i%1000).get("key").toString();
-                JSONObject fieldsArray = (JSONObject) issues.getJSONObject(i%1000).get("fields"); //.get("resolutiondate").toString();
-                String resolutionDate = fieldsArray.get("resolutiondate").toString();
-                resolutionDate = formattingString(resolutionDate);
-                //System.out.println(key);
-                allTickets += key + "," + resolutionDate + "\n";
-            }
-        }
-
-        fileManager.writeToFile(allTickets);
-        return;
-    }*/
-
-
 }

@@ -1,25 +1,21 @@
+package logic.dataset_manager;
+
 import java.io.*;
 
 public class FileManager {
-    private String pathFile;
     private File file;
 
     public FileManager(String path){
-        this.pathFile = path;
         this.file = new File(path);
     }
 
     public void writeToFile(String s) throws IOException {
-        FileWriter fw = null;
-        try {
-            fw = new FileWriter(this.file);
+
+        try (FileWriter fw = new FileWriter(this.file)){
             fw.append(s);
             fw.flush();
         }catch (IOException e) {
             e.printStackTrace();
-        }finally {
-            if (fw != null)
-                fw.close();
         }
     }
 
