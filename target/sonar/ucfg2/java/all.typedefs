@@ -710,7 +710,12 @@ insert(IJ);java.lang.StringBuilder#insert(IJ)Ljava/lang/StringBuilder;]
 insert(ID);java.lang.StringBuilder#insert(ID)Ljava/lang/StringBuilder;o
 )writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)VI
 
-insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;ï
+insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;«
+java.util.Map$Entryjava.lang.Objectz
+&comparingByKey(Ljava/util/Comparator;)Pjava.util.Map$Entry#comparingByKey(Ljava/util/Comparator;)Ljava/util/Comparator;R
+comparingByValue()<java.util.Map$Entry#comparingByValue()Ljava/util/Comparator;N
+comparingByKey():java.util.Map$Entry#comparingByKey()Ljava/util/Comparator;~
+(comparingByValue(Ljava/util/Comparator;)Rjava.util.Map$Entry#comparingByValue(Ljava/util/Comparator;)Ljava/util/Comparator;ï
 java.text.Formatjava.lang.Cloneablejava.lang.Objectjava.io.Serializable”
 KcreateAttributedCharacterIterator([Ljava/text/AttributedCharacterIterator;)Éjava.text.Format#createAttributedCharacterIterator([Ljava/text/AttributedCharacterIterator;)Ljava/text/AttributedCharacterIterator;¶
 5createAttributedCharacterIterator(Ljava/lang/String;)mjava.text.Format#createAttributedCharacterIterator(Ljava/lang/String;)Ljava/text/AttributedCharacterIterator;&
@@ -925,36 +930,7 @@ toString())java.net.URL#toString()Ljava/lang/String;ú
 readResolve(),java.net.URL#readResolve()Ljava/lang/Object;I
 openConnection()5java.net.URL#openConnection()Ljava/net/URLConnection;z
 'getURLStreamHandler(Ljava/lang/String;)Ojava.net.URL#getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler;$
-	getPort()java.net.URL#getPort()IË
-java.nio.charset.Charsetjava.lang.Comparablejava.lang.ObjectR
-equals(Ljava/lang/Object;)4java.nio.charset.Charset#equals(Ljava/lang/Object;)Z4
-canEncode()%java.nio.charset.Charset#canEncode()Zn
-(put(Ljava/util/Iterator;Ljava/util/Map;)Bjava.nio.charset.Charset#put(Ljava/util/Iterator;Ljava/util/Map;)Vm
-forName(Ljava/lang/String;)Njava.nio.charset.Charset#forName(Ljava/lang/String;)Ljava/nio/charset/Charset;X
-checkName(Ljava/lang/String;)7java.nio.charset.Charset#checkName(Ljava/lang/String;)VÉ
-&lookupViaProviders(Ljava/lang/String;)Yjava.nio.charset.Charset#lookupViaProviders(Ljava/lang/String;)Ljava/nio/charset/Charset;2
-
-hashCode()$java.nio.charset.Charset#hashCode()I:
-isRegistered()(java.nio.charset.Charset#isRegistered()Z>
-	aliases()1java.nio.charset.Charset#aliases()Ljava/util/Set;X
-availableCharsets()Ajava.nio.charset.Charset#availableCharsets()Ljava/util/SortedMap;I
-displayName()8java.nio.charset.Charset#displayName()Ljava/lang/String;W
-defaultCharset()Cjava.nio.charset.Charset#defaultCharset()Ljava/nio/charset/Charset;C
-
-toString()5java.nio.charset.Charset#toString()Ljava/lang/String;l
-decode(Ljava/nio/ByteBuffer;)Kjava.nio.charset.Charset#decode(Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;l
-encode(Ljava/nio/CharBuffer;)Kjava.nio.charset.Charset#encode(Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;\
-isSupported(Ljava/lang/String;)9java.nio.charset.Charset#isSupported(Ljava/lang/String;)Zk
-lookup(Ljava/lang/String;)Mjava.nio.charset.Charset#lookup(Ljava/lang/String;)Ljava/nio/charset/Charset;â
-)lookupExtendedCharset(Ljava/lang/String;)\java.nio.charset.Charset#lookupExtendedCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;G
-providers()8java.nio.charset.Charset#providers()Ljava/util/Iterator;m
-lookup2(Ljava/lang/String;)Njava.nio.charset.Charset#lookup2(Ljava/lang/String;)Ljava/nio/charset/Charset;;
-name()1java.nio.charset.Charset#name()Ljava/lang/String;f
-encode(Ljava/lang/String;)Hjava.nio.charset.Charset#encode(Ljava/lang/String;)Ljava/nio/ByteBuffer;m
-displayName(Ljava/util/Locale;)Jjava.nio.charset.Charset#displayName(Ljava/util/Locale;)Ljava/lang/String;h
-%compareTo(Ljava/nio/charset/Charset;)?java.nio.charset.Charset#compareTo(Ljava/nio/charset/Charset;)IÑ
-3cache(Ljava/lang/String;Ljava/nio/charset/Charset;)Mjava.nio.charset.Charset#cache(Ljava/lang/String;Ljava/nio/charset/Charset;)Vx
--<init>(Ljava/lang/String;[Ljava/lang/String;)Gjava.nio.charset.Charset#<init>(Ljava/lang/String;[Ljava/lang/String;)Vø
+	getPort()java.net.URL#getPort()Iø
 java.io.InputStreamReaderjava.io.Readerõ
 ><init>(Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)Yjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/nio/charset/CharsetDecoder;)Vç
 7<init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Rjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V-

@@ -14,9 +14,7 @@ public class MyMap extends TreeMap<String, Integer> {
 
 
     public MyMap(JSONArray array){
-        super(new Comparator<String>() {
-            @Override
-            public int compare(String s, String t1) {
+        super((s, t1) -> {
                 //strings are mm-dddd format
                 //split:
                 String[] date1 = s.split("-");
@@ -37,7 +35,6 @@ public class MyMap extends TreeMap<String, Integer> {
                         return 1;
                 }
                 return 0;
-            }
         });
         Integer i;
         String myDate;

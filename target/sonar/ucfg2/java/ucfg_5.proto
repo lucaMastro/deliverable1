@@ -1,49 +1,49 @@
 
 Ulogic.dataset_manager.RetrieveTicketsID#<init>(Ljava/lang/String;Ljava/lang/String;)V“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ("3*é,
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ("3*é,
 2“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java# #(¿
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ $(¿
 ¼
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java# #(
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ $(
 jjava.lang.Integer"__id*
 ""õ
 ò
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% %(&
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java& &(&
 %4java.lang.String"__id*<*:)
 'logic.dataset_manager.RetrieveTicketsID"
 projectName›
 ˜
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ %(&
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% &(&
 %5java.lang.String"__concat*DB
 @https://issues.apache.org/jira/rest/api/2/search?jql=project=%22*
 
 %4java.lang.String™
 –
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ %(i
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% &(i
 %6java.lang.String"__concat*
 
 %5java.lang.String*B@
 >%22AND%22issueType%22=%22Bug%22AND(%22status%22=%22closed%22ORË
 È
 ”
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ &(‡
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% '(‡
 %7java.lang.String"__concat*
 
 %6java.lang.String*sq
 o%22status%22=%22resolved%22)AND%22resolution%22=%22fixed%22&fields=key,resolutiondate,versions,created&startAt=‡„
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java' '("
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java( (("
 %8java.lang.String".java.lang.Integer#toString()Ljava/lang/String;*
 
 ijava.lang.Integer2
 toString()ï
 ì
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ '("
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% (("
 %9java.lang.String"__concat*
 
 %7java.lang.String*
@@ -51,20 +51,20 @@ toString()ï
 %8java.lang.Stringè
 å
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ '(3
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% ((3
 %10java.lang.String"__concat*
 
 %9java.lang.String*
 &maxResults=ˆ…
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java'6 '(B
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java(6 ((B
 %11java.lang.String".java.lang.Integer#toString()Ljava/lang/String;*
 
 jjava.lang.Integer2
 toString()ò
 ï
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ '(B
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% ((B
 %12java.lang.String"__concat*
 
 %10java.lang.String*
@@ -72,31 +72,31 @@ toString()ò
 %11java.lang.StringÓ
 Ð
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java$ '(C
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java% ((C
 urljava.lang.String"__id*
 
 %12java.lang.Stringß
 Ü
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java) )(2
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java* *(2
 %13org.json.JSONObject"`logic.dataset_manager.RetrieveTicketsID#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;*+")
 'logic.dataset_manager.RetrieveTicketsID*
 
 urljava.lang.StringÚ
 ×
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java) )(3
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java* *(3
 jsonorg.json.JSONObject"__id*
 
 %13org.json.JSONObjectö
 ó
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+) +(7
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java,) ,(7
 %14org.json.JSONArray"__id*:*8)
 'logic.dataset_manager.RetrieveTicketsID"
 	jsonArrayËÈ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+9 +(T
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java,9 ,(T
 %15org.json.JSONArray"Horg.json.JSONObject#getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;*
 
 jsonorg.json.JSONObject*
@@ -104,7 +104,7 @@ toString()ò
 issues2 getJSONArray(Ljava/lang/String;)Ž
 ‹
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+ +(U
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java, ,(U
 %16org.json.JSONArray"qlogic.dataset_manager.RetrieveTicketsID#concatenate(Lorg/json/JSONArray;Lorg/json/JSONArray;)Lorg/json/JSONArray;*+)
 'logic.dataset_manager.RetrieveTicketsID*
 
@@ -113,13 +113,13 @@ toString()ò
 %15org.json.JSONArrayö
 ó
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+ +(U8)
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java, ,(U8)
 'logic.dataset_manager.RetrieveTicketsID"
 	jsonArray"__id*
 
 %16org.json.JSONArrayœ™
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java- -(-
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java. .(-
 
 %17int"/org.json.JSONObject#getInt(Ljava/lang/String;)I*
 
@@ -127,7 +127,7 @@ toString()ò
 total2getInt(Ljava/lang/String;)ã
 à
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java- -(-4)
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java. .(-4)
 'logic.dataset_manager.RetrieveTicketsID"
 total"__id*
 
@@ -135,25 +135,25 @@ toString()ò
 %17intÞ
 Û
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java/ /(
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java0 0(
 %18java.lang.Integer"__concat*
 
 ijava.lang.Integer*2èÓ
 Ð
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java/ /(
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java0 0(
 ijava.lang.Integer"__id*
 
 %18java.lang.Integer*
 1*Õ
 3“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+ (5åâ
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java+ (5åâ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (*'
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (*'
 %0!logic.dataset_manager.FileManager"!logic.dataset_manager.FileManager«
 ¨
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (6
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (6
 %1"=logic.dataset_manager.FileManager#<init>(Ljava/lang/String;)V*)
 '
 %0!logic.dataset_manager.FileManager* 
@@ -162,52 +162,52 @@ toString()ò
 pathToFilejava.lang.String†
 ƒ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (6:)
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (6:)
 'logic.dataset_manager.RetrieveTicketsID"
 fileManager"__id*)
 '
 %0!logic.dataset_manager.FileManagerû
 ø
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (#:)
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (#:)
 'logic.dataset_manager.RetrieveTicketsID"
 projectName"__id*
 
 projNamejava.lang.StringÇÄ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (&
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (&
 %2org.json.JSONArray"org.json.JSONArrayÙ
 Ö
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ((
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ((
 %3"org.json.JSONArray#<init>()V*
 
 %2org.json.JSONArrayõ
 ò
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ((8)
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java ((8)
 'logic.dataset_manager.RetrieveTicketsID"
 	jsonArray"__id*
 
 %2org.json.JSONArray»
 ¸
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (
 jjava.lang.Integer"__id*2 »
 ¸
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java (
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java   (
 ijava.lang.Integer"__id*2 *
 2*³
 0 "«
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java3 3(
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java4 4(
 implicit return*•
 1“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java1 1(ñ
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java2 2(ñ
 î
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java1 1(
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java2 2(
 %19java.lang.Integer"__id*6*4)
 'logic.dataset_manager.RetrieveTicketsID"
 total*
