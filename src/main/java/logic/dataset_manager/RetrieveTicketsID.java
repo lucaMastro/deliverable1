@@ -87,10 +87,7 @@ public class RetrieveTicketsID {
 
         String cmd = ConfigurationManager.getConfigEntry("gitCommand");
         TreeMap<String, Integer> allCommitsMap = new MyMap(cmd);
-
-        System.out.println(allCommitsMap.toString());
-
-
+        
 
     }
 

@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public final class ConfigurationManager {
 
@@ -17,7 +19,8 @@ public final class ConfigurationManager {
             p.load(inputStream);
             c = p.getProperty(key);
         } catch (IOException e) {
-            e.printStackTrace();
+            Logger logger = Logger.getLogger(ConfigurationManager.class.getName());
+            logger.log(Level.OFF, e.toString());
         }
         return c;
     }

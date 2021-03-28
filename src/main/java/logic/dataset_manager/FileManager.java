@@ -1,6 +1,10 @@
 package logic.dataset_manager;
 
+import logic.config_manager.ConfigurationManager;
+
 import java.io.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class FileManager {
     private File file;
@@ -15,26 +19,25 @@ public class FileManager {
             fw.append(s);
             fw.flush();
         }catch (IOException e) {
-            e.printStackTrace();
+            Logger logger = Logger.getLogger(ConfigurationManager.class.getName());
+            logger.log(Level.OFF, e.toString());
         }
     }
 
     public String readIthLineFromFile(int lineNumber) throws IOException {
-        FileReader fr = new FileReader(this.file);
-        BufferedReader br = new BufferedReader(fr);
+
         String line = null;
         int i = 0;
-        try{
+        try(FileReader fr = new FileReader(this.file);
+            BufferedReader br = new BufferedReader(fr)){
             while ((line = br.readLine()) != null) {
                 i++;
                 if (i == lineNumber)
                     break;
             }
         } catch (IOException e){
-            e.printStackTrace();
-        }finally {
-            br.close();
-            fr.close();
+            Logger logger = Logger.getLogger(ConfigurationManager.class.getName());
+            logger.log(Level.OFF, e.toString());
         }
         if (i == lineNumber)
             return line;

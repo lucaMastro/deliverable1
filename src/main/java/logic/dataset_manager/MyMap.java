@@ -1,5 +1,6 @@
 package logic.dataset_manager;
 
+import logic.config_manager.ConfigurationManager;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -8,6 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MyMap extends TreeMap<String, Integer> {
     /* This class has been created to better manage key-value dictiory where the key is
@@ -57,7 +60,8 @@ public class MyMap extends TreeMap<String, Integer> {
                     this.put(line, value + 1);
             }
         }catch (Exception e){
-            e.printStackTrace();
+            Logger logger = Logger.getLogger(ConfigurationManager.class.getName());
+            logger.log(Level.OFF, e.toString());
         }
         this.completeDataset();
     }
