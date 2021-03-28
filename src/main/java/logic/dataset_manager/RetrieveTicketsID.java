@@ -9,9 +9,12 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
+import logic.config_manager.ConfigurationManager;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
+
+import javax.security.auth.login.Configuration;
 
 public class RetrieveTicketsID {
 
@@ -19,13 +22,14 @@ public class RetrieveTicketsID {
     private String projectName;
     private JSONArray jsonArray;
     private Integer total;
+    private Configuration configuration;
 
     public RetrieveTicketsID(String projName, String pathToFile) throws IOException {
 
         this.fileManager = new FileManager(pathToFile);
         this.projectName = projName;
-
         this.jsonArray = new JSONArray();
+
 
         Integer j = 0;
         Integer i = 0;
@@ -37,7 +41,6 @@ public class RetrieveTicketsID {
                     + this.projectName + "%22AND%22issueType%22=%22Bug%22AND(%22status%22=%22closed%22OR"
                     + "%22status%22=%22resolved%22)AND%22resolution%22=%22fixed%22&fields=key,resolutiondate,versions,created&startAt="
                     + i.toString() + "&maxResults=" + j.toString();
-
             JSONObject json = readJsonFromUrl(url);
 
             this.jsonArray = concatenate(this.jsonArray, json.getJSONArray("issues"));
@@ -81,11 +84,17 @@ public class RetrieveTicketsID {
         }
     }
 
-    public static void main(String[] args) throws IOException, JSONException {
-        String projectName = "MAHOUT";
-        String pathFile = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
-        RetrieveTicketsID retrieveTicketsID = new RetrieveTicketsID(projectName, pathFile);
-        TreeMap<String, Integer> map = new MyMap(retrieveTicketsID.jsonArray);
-        retrieveTicketsID.fileManager.writeToFile(map.toString());
+   public static void main(String[] args) throws IOException, JSONException {
+        String projectName = ConfigurationManager.getConfigEntry("projectName");
+        //String pathFile = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
+        String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
+        RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);
+        TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
+        fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());
+        /*TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
+        fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());/*/
+
     }
+
+
 }
