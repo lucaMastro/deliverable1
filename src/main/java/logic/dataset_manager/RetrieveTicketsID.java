@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 import logic.config_manager.ConfigurationManager;
+import logic.dataset_analysis.StatisticalAnalysis;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
@@ -82,13 +83,14 @@ public class RetrieveTicketsID {
         String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
         RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);
         TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
-        fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());
-
 
         String cmd = ConfigurationManager.getConfigEntry("gitCommand");
         TreeMap<String, Integer> allCommitsMap = new MyMap(cmd);
-        
 
+        StatisticalAnalysis sa = new StatisticalAnalysis();
+        sa.makeCsvTest((MyMap) fixedBugsMap, (MyMap) allCommitsMap);
+
+        fixedBugs.fileManager.writeToFile(sa.getStringToWrite());
     }
 
 
