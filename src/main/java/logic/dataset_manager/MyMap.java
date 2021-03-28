@@ -3,6 +3,9 @@ package logic.dataset_manager;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -10,32 +13,57 @@ public class MyMap extends TreeMap<String, Integer> {
     /* This class has been created to better manage key-value dictiory where the key is
         a String-formatted date in %m-%Y, and the value is an Integer which counts the
         number of fixed bugs in a given project during the month specified in key.
+        It will be also used to map <date -> number of total commit in that date>.
     * */
 
+    public MyMap(){
+        super((s, t1) -> {
+            //strings are mm-dddd format
+            //split:
+            String[] date1 = s.split("-");
+            String[] date2 = t1.split("-");
+            Integer[] integers1 = {Integer.parseInt(date1[0]), Integer.parseInt(date1[1])};
+            Integer[] integers2 = {Integer.parseInt(date2[0]), Integer.parseInt(date2[1])};
+
+            //checking years:
+            if (integers1[1] < integers2[1])
+                return -1;
+            else if (integers1[1] > integers2[1])
+                return 1;
+            else{
+                //checking months:
+                if (integers1[0] < integers2[0])
+                    return -1;
+                else if (integers1[0] > integers2[0])
+                    return 1;
+            }
+            return 0;
+        });
+    }
+
+    public MyMap(String gitCmd) throws IOException {
+        this();
+        Process process = Runtime.getRuntime().exec(gitCmd);
+
+        String line;
+        Integer value;
+        Process p = Runtime.getRuntime().exec(gitCmd);
+        try (BufferedReader in = new BufferedReader(
+                new InputStreamReader(p.getInputStream()) )){
+            while ((line = in.readLine()) != null) {
+                if ((value = this.get(line)) == null)
+                    this.put(line, 1);
+                else
+                    this.put(line, value + 1);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        this.completeDataset();
+    }
 
     public MyMap(JSONArray array){
-        super((s, t1) -> {
-                //strings are mm-dddd format
-                //split:
-                String[] date1 = s.split("-");
-                String[] date2 = t1.split("-");
-                Integer[] integers1 = {Integer.parseInt(date1[0]), Integer.parseInt(date1[1])};
-                Integer[] integers2 = {Integer.parseInt(date2[0]), Integer.parseInt(date2[1])};
-
-                //checking years:
-                if (integers1[1] < integers2[1])
-                    return -1;
-                else if (integers1[1] > integers2[1])
-                    return 1;
-                else{
-                    //checking months:
-                    if (integers1[0] < integers2[0])
-                        return -1;
-                    else if (integers1[0] > integers2[0])
-                        return 1;
-                }
-                return 0;
-        });
+        this();
         Integer i;
         String myDate;
         Integer value;
@@ -99,9 +127,9 @@ public class MyMap extends TreeMap<String, Integer> {
         Integer startingMonthIndex;
         Integer endingMonthIndex;
         DecimalFormat decimalFormat = new DecimalFormat("00");
-        String newDate = "";
-        StringBuilder bld = new StringBuilder();
+
         for (year = startingYear; year <= endingYear; year++){
+
             if (year.equals(startingYear))
                 startingMonthIndex = startingMonth;
             else
@@ -113,7 +141,8 @@ public class MyMap extends TreeMap<String, Integer> {
                 endingMonthIndex = 12;
 
             for (month = startingMonthIndex; month <= endingMonthIndex; month++){
-
+                StringBuilder bld = new StringBuilder();
+                String newDate = "";
                 newDate = decimalFormat.format(month);
                 newDate = bld.append(newDate).append("-").append(year.toString()).toString();
 

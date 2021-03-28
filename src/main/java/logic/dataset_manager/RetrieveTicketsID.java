@@ -1,12 +1,10 @@
 package logic.dataset_manager;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 import logic.config_manager.ConfigurationManager;
@@ -81,12 +79,20 @@ public class RetrieveTicketsID {
         }
     }
 
-   public static void main(String[] args) throws IOException, JSONException {
+   public static void main(String[] args) throws IOException, JSONException, InterruptedException {
         String projectName = ConfigurationManager.getConfigEntry("projectName");
         String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
         RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);
         TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
         fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());
+
+
+        String cmd = ConfigurationManager.getConfigEntry("gitCommand");
+        TreeMap<String, Integer> allCommitsMap = new MyMap(cmd);
+
+        System.out.println(allCommitsMap.toString());
+
+
 
     }
 
