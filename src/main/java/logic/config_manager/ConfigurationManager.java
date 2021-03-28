@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public abstract class ConfigurationManager {
+public final class ConfigurationManager {
+
+    private ConfigurationManager(){}
 
     public static String getConfigEntry(String key){
         String c = "";

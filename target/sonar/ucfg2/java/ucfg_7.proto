@@ -1,107 +1,53 @@
 
-`logic.dataset_manager.RetrieveTicketsID#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaJ J(,"7*Ï
+Slogic.dataset_manager.RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;“
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaD D(!"4*É
 2“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaN N(,"³
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaH H(¨¥
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaN N(,
-
-%9org.json.JSONObject*Õ
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaH H( 
+%3java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+""2	append(C)*
+3*€
 3“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaM M(*×
-Ô
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaG G(ÜÙ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaM M(*
-jsonTextjava.lang.String"__id*
-
-%8java.lang.StringÉÆ
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaN N(!
-%9org.json.JSONObject"org.json.JSONObjectŽ
-‹
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaN N(+
-%10"/org.json.JSONObject#<init>(Ljava/lang/String;)V*
-
-%9org.json.JSONObject*
-
-jsonTextjava.lang.String*
-2*Ô
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaG G(	
+%2int"java.io.Reader#read()I*
+
+rdjava.io.Reader2read()*
+2
+1*º
 4“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL L(fÝ
-Ú
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaE E(.ÑÎ
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL L(f
-rdjava.io.BufferedReader"__id*
-
-%6java.io.BufferedReaderÓ
-Ð
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaE E(,
+%0java.lang.StringBuilder"java.lang.StringBuilderã
+à
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaM M()
-%8java.lang.String"Slogic.dataset_manager.RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;*+")
-'logic.dataset_manager.RetrieveTicketsID*
-
-rdjava.io.BufferedReader*
-3*‡
-5“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL! L(fÏÌ
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaE E(.
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilderß
+Ü
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL% L(3
-%6java.io.BufferedReader"java.io.BufferedReader”
-‘
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaE E(/
+sbjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilder*
+3*ã
+1“
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaJ J(”‘
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL! L(f
-%7"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*
-
-%6java.io.BufferedReader*!
-
-%4java.io.InputStreamReader*
-4*˜
-6“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaLJ L(LÇ
-Ä
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaJ J(
+%4java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuilder2
+toString()"°
 “
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaLN L(d
-%3java.nio.charset.Charset"__id*
-""ÕÒ
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL8 L(I
-%4java.io.InputStreamReader"java.io.InputStreamReaderÕ
-Ò
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaL4 L(e
-%5"Rjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V*!
-
-%4java.io.InputStreamReader*
-
-isjava.io.InputStream* 
-
-%3java.nio.charset.Charset*
-5*¾
-7“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaK! K($»¸
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaK K( 
-%0java.net.URL"java.net.URLú
-÷
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaK K(%
-%1"(java.net.URL#<init>(Ljava/lang/String;)V*
-
-%0java.net.URL*
-
-urljava.lang.Stringˆ…
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaK K(2
-%2java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
-
-%0java.net.URL2openStream()×
-Ô
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaK K(3
-isjava.io.InputStream"__id*
-
-%2java.io.InputStream*
-6:
-urljava.lang.StringB+")
+ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaJ J(
+
+%4java.lang.String:
+rdjava.io.ReaderB+")
 'logic.dataset_manager.RetrieveTicketsID

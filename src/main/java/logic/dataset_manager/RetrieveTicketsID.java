@@ -14,15 +14,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
-import javax.security.auth.login.Configuration;
-
 public class RetrieveTicketsID {
 
     private FileManager fileManager;
     private String projectName;
     private JSONArray jsonArray;
     private Integer total;
-    private Configuration configuration;
 
     public RetrieveTicketsID(String projName, String pathToFile) throws IOException {
 
@@ -86,13 +83,10 @@ public class RetrieveTicketsID {
 
    public static void main(String[] args) throws IOException, JSONException {
         String projectName = ConfigurationManager.getConfigEntry("projectName");
-        //String pathFile = "/home/luca/Scrivania/ISW2/deliverables/deliverable1/commits.csv";
         String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
         RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);
         TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
         fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());
-        /*TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
-        fixedBugs.fileManager.writeToFile(fixedBugsMap.toString());/*/
 
     }
 
