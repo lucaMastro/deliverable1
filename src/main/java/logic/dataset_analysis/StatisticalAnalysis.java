@@ -19,12 +19,9 @@ public class StatisticalAnalysis {
         this.stringToWrite = stringToWrite;
     }
 
-    public StatisticalAnalysis() {
-    }
-
     public void makeCsvTest(MyMap fixedBugMap, MyMap allCommitMap) {
         String key;
-        StringBuilder text = new StringBuilder("date,fixed bugs,all commit,use it in data-analysis(1=y, 0=n)\n");
+        StringBuilder text = new StringBuilder("date,fixed bugs,all commit,use it in data-analysis(1 = y; 0 = n)\n");
         Integer value;
         Integer fixedBugs;
         for (Map.Entry<String, Integer> entry : fixedBugMap.entrySet()) {

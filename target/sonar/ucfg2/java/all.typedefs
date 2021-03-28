@@ -1421,7 +1421,12 @@ toString())java.net.URL#toString()Ljava/lang/String;œ
 readResolve(),java.net.URL#readResolve()Ljava/lang/Object;I
 openConnection()5java.net.URL#openConnection()Ljava/net/URLConnection;z
 'getURLStreamHandler(Ljava/lang/String;)Ojava.net.URL#getURLStreamHandler(Ljava/lang/String;)Ljava/net/URLStreamHandler;$
-	getPort()java.net.URL#getPort()I«
+	getPort()java.net.URL#getPort()I¢
+*logic.dataset_analysis.StatisticalAnalysisjava.lang.Objectx
+$setStringToWrite(Ljava/lang/String;)Plogic.dataset_analysis.StatisticalAnalysis#setStringToWrite(Ljava/lang/String;)V@
+<init>()4logic.dataset_analysis.StatisticalAnalysis#<init>()V¾
+GmakeCsvTest(Llogic/dataset_manager/MyMap;Llogic/dataset_manager/MyMap;)slogic.dataset_analysis.StatisticalAnalysis#makeCsvTest(Llogic/dataset_manager/MyMap;Llogic/dataset_manager/MyMap;)Ve
+getStringToWrite()Ologic.dataset_analysis.StatisticalAnalysis#getStringToWrite()Ljava/lang/String;«
 java.io.Filejava.lang.Comparablejava.lang.Objectjava.io.Serializable&
 
 isHidden()java.io.File#isHidden()ZF
@@ -1529,6 +1534,4 @@ canWrite()java.io.File#canWrite()Z2
 <init>(Ljava/lang/String;).java.io.FileReader#<init>(Ljava/lang/String;)Vx
 0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Djava.io.FileReader#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V€
 4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Hjava.io.FileReader#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)VX
- <init>(Ljava/io/FileDescriptor;)4java.io.FileReader#<init>(Ljava/io/FileDescriptor;)V€
-*logic.dataset_analysis.StatisticalAnalysisjava.lang.Object@
-<init>()4logic.dataset_analysis.StatisticalAnalysis#<init>()V
+ <init>(Ljava/io/FileDescriptor;)4java.io.FileReader#<init>(Ljava/io/FileDescriptor;)V
