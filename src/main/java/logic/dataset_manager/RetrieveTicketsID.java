@@ -3,8 +3,6 @@ package logic.dataset_manager;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 
 import logic.config_manager.ConfigurationManager;
@@ -79,7 +77,7 @@ public class RetrieveTicketsID {
         }
     }
 
-   public static void main(String[] args) throws IOException, JSONException, InterruptedException {
+   public static void main(String[] args) throws IOException, JSONException {
         String projectName = ConfigurationManager.getConfigEntry("projectName");
         String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
         RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);

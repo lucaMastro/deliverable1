@@ -43,7 +43,7 @@ public class MyMap extends TreeMap<String, Integer> {
 
     public MyMap(String gitCmd) throws IOException {
         this();
-        Process process = Runtime.getRuntime().exec(gitCmd);
+        Runtime.getRuntime().exec(gitCmd);
 
         String line;
         Integer value;
