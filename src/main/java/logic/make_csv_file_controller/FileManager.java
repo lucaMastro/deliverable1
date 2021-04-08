@@ -24,7 +24,7 @@ public class FileManager {
         Node obj = null;
         while (it.hasNext()){
             obj = it.next();
-            if (obj.isValid())
+            if (Boolean.TRUE.equals(obj.isValid()))
                 sb.append(obj.toString()).append(",")
                         .append(sa.getMean().toString()).append(",")
                         .append(sa.getUpperControlLimit().toString()).append(",")

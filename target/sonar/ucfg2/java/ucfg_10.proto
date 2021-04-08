@@ -1,53 +1,82 @@
 
-Slogic.dataset_manager.RetrieveTicketsID#readAll(Ljava/io/Reader;)Ljava/lang/String;“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java> >(!"4*É
-2“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaB B(¨¥
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaB B( 
-%3java.lang.StringBuilder":java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;*
-
-sbjava.lang.StringBuilder*
-""2	append(C)*
-3*€
-3“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaA A(ÜÙ
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaA A(	
-%2int"java.io.Reader#read()I*
-
-rdjava.io.Reader2read()*
-2
-1*º
-4“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java? ?(.ÑÎ
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java? ?(,
-%0java.lang.StringBuilder"java.lang.StringBuilderã
-à
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java? ?(.
-%1"!java.lang.StringBuilder#<init>()V*
-
-%0java.lang.StringBuilderß
+Ologic.dataset_manager.MySet#get(Ljava/lang/String;)Llogic/dataset_manager/Node;†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaH H("5*ó
+2†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaS S(ß
 Ü
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java? ?(/
-sbjava.lang.StringBuilder"__id*
-
-%0java.lang.StringBuilder*
-3*ã
-1“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaD D(”‘
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaD D(
-%4java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
-
-sbjava.lang.StringBuilder2
-toString()"°
-“
-ˆ/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.javaD D(
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaS S(&
+searchedlogic.dataset_manager.Node"__id*#
+!
+objlogic.dataset_manager.Node*
+1*ì
+3†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaQ Q(ÿü
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaQ Q( 
+%2logic.dataset_manager.Node"+java.util.Iterator#next()Ljava/lang/Object;*
+
+itjava.util.Iterator2next()Ù
+Ö
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaQ Q(!
+objlogic.dataset_manager.Node"__id*"
+ 
+%2logic.dataset_manager.NodeÙ
+Ö
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaR R(
+%3java.lang.String"__id*-*+
+!
+objlogic.dataset_manager.Node"
+date›˜
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaR R(%
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
-%4java.lang.String:
-rdjava.io.ReaderB+")
-'logic.dataset_manager.RetrieveTicketsID
+%3java.lang.String*
+
+datejava.lang.String2equals(Ljava/lang/Object;)*
+2
+4*ø
+4†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaP P(áÞ
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaP P(
+%1boolean"java.util.Iterator#hasNext()Z*
+
+itjava.util.Iterator2	hasNext()*
+3
+1*é
+5†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaM M( …‚
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaM M(+
+%0java.util.Iterator"0java.util.TreeSet#iterator()Ljava/util/Iterator;*
+logic.dataset_manager.MySet2
+iterator()È
+Å
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaM M(,
+itjava.util.Iterator"__id*
+
+%0java.util.Iterator½
+º
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaN N(!
+objlogic.dataset_manager.Node"__id*
+""Â
+¿
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaO O(&
+searchedlogic.dataset_manager.Node"__id*
+""*
+4*Â
+1†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaW W("³
+†
+|/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.javaW W((
+&
+searchedlogic.dataset_manager.Node:
+datejava.lang.StringB
+logic.dataset_manager.MySet

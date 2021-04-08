@@ -1,5 +1,7 @@
 /home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/config_manager/ConfigurationManager.java
-/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveTicketsID.java
+/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java
+/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/RetrieveInformations.java
 /home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java
-/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/FileManager.java
-/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MyMap.java
+/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/Node.java
+/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/MySet.java
+/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/Controller.java

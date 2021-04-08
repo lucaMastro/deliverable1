@@ -1,7 +1,6 @@
 package logic.dataset_manager;
 
 import logic.config_manager.ConfigurationManager;
-import logic.dataset_analysis.StatisticalAnalysis;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

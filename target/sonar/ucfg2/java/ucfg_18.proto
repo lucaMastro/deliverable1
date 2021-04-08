@@ -1,204 +1,16 @@
 
-slogic.dataset_analysis.StatisticalAnalysis#makeCsvTest(Llogic/dataset_manager/MyMap;Llogic/dataset_manager/MyMap;)Vñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ("8*◊
-2ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (-»
-≈
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (-
-entryjava.util.Map$Entry"__id*
-""Â
-‚
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (-
-entryjava.util.Map$Entry"
-__arrayGet*
-
-%2java.util.Set*
-""*
-6
-1*Ù
-3ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java% %(–Õ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java% %(
-%16java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*!
-
-textjava.lang.StringBuilder*
-\n2append(Ljava/lang/String;)*
-2*Û
-4ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java$ $(œÃ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java$ $( 
-%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*!
-
-textjava.lang.StringBuilder*
-12append(Ljava/lang/String;)*
-3*Û
-5ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java" "(œÃ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java" "( 
-%14java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*!
-
-textjava.lang.StringBuilder*
-02append(Ljava/lang/String;)*
-3*∞!
-6ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (éã
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ( 
-%3java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*
-
-entryjava.util.Map$Entry2getKey()’
-“
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ( 
-keyjava.lang.String"__id*
-
-%3java.lang.String‚ﬂ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (
-%4java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*!
-
-textjava.lang.StringBuilder*
+7logic.dataset_manager.Node#isValid()Ljava/lang/Boolean;Ö
+{/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/Node.java ("1*ã
+1Ö
+{/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/Node.java (◊
+‘
+Ö
+{/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/Node.java (
+%0java.lang.Boolean"__id*+*)
+logic.dataset_manager.Node"	
+isValid"£
+Ö
+{/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_manager/Node.java (
 
-keyjava.lang.String2append(Ljava/lang/String;)Ã…
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ((
-%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-%4java.lang.StringBuilder*
-,2append(Ljava/lang/String;)ìê
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ((
-%6java.lang.Integer"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
-
-entryjava.util.Map$Entry2
-getValue()›
-⁄
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ((
-	fixedBugsjava.lang.Integer"__id*
-
-%6java.lang.Integerâ
-Ü
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ()
-%7java.lang.Integer"__mapGet*-
-+
-allCommitMaplogic.dataset_manager.MyMap*
-
-keyjava.lang.StringŸ
-÷
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java ()
-valuejava.lang.Integer"__id*
-
-%7java.lang.Integeríè
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java   (,
-%8java.lang.String".java.lang.Integer#toString()Ljava/lang/String;* 
-
-	fixedBugsjava.lang.Integer2
-toString()·ﬁ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java   (-
-%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*!
-
-textjava.lang.StringBuilder*
-
-%8java.lang.String2append(Ljava/lang/String;)Õ 
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java   (9
-%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-%9java.lang.StringBuilder*
-,2append(Ljava/lang/String;)èå
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java A  (Q
-%11java.lang.String".java.lang.Integer#toString()Ljava/lang/String;*
-
-valuejava.lang.Integer2
-toString()‚ﬂ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java   (R
-%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
-
-%10java.lang.StringBuilder*
-
-%11java.lang.String2append(Ljava/lang/String;)ŒÀ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java   (^
-%13java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
-
-%12java.lang.StringBuilder*
-,2append(Ljava/lang/String;)*
-4
-5*º
-7ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java0 (;òï
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java0 (F
-%2java.util.Set"+java.util.TreeMap#entrySet()Ljava/util/Set;*,
-*
-fixedBugMaplogic.dataset_manager.MyMap2
-entrySet()*
-2*˛
-8ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (√
-¿
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (
-keyjava.lang.String"__id*
-""‘—
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java! (.
-%0java.lang.StringBuilder"java.lang.StringBuilder¿
-Ω
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (t
-%1"3java.lang.StringBuilder#<init>(Ljava/lang/String;)V*
-
-%0java.lang.StringBuilder*FD
-Bdate,fixed bugs,all commit,use it in data-analysis(1 = y; 0 = n)\n‰
-·
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (u
-textjava.lang.StringBuilder"__id*
-
-%0java.lang.StringBuilder∆
-√
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (
-valuejava.lang.Integer"__id*
-"" 
-«
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java (
-	fixedBugsjava.lang.Integer"__id*
-""*
-7*∂
-0 "Æ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java) )(
-implicit return*≠
-1ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java' '(öó
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java' '(-
-%17java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*!
-
-textjava.lang.StringBuilder2
-toString()ÏÈ
-ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/dataset_analysis/StatisticalAnalysis.java' '(.
-%18void"Plogic.dataset_analysis.StatisticalAnalysis#setStringToWrite(Ljava/lang/String;)V*.,
-*logic.dataset_analysis.StatisticalAnalysis*
-
-%17java.lang.String2$setStringToWrite(Ljava/lang/String;)*
-0:*
-fixedBugMaplogic.dataset_manager.MyMap:+
-allCommitMaplogic.dataset_manager.MyMapB.,
-*logic.dataset_analysis.StatisticalAnalysis
+%0java.lang.BooleanB
+logic.dataset_manager.Node

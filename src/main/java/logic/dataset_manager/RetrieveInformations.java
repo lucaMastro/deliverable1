@@ -11,7 +11,6 @@ import org.json.JSONArray;
 
 public class RetrieveInformations {
 
-    private FileManager fileManager;
     private String projectName;
 
     public JSONArray getJsonArray() {
@@ -24,7 +23,6 @@ public class RetrieveInformations {
 
     public RetrieveInformations(String projName, String pathToFile) throws IOException {
 
-        this.fileManager = new FileManager(pathToFile);
         this.projectName = projName;
         this.jsonArray = new JSONArray();
 

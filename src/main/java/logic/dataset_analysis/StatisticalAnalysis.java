@@ -31,7 +31,7 @@ public class StatisticalAnalysis {
         Node obj = null;
         while (it.hasNext()){
             obj = it.next();
-            if (obj.isValid()){
+            if (Boolean.TRUE.equals(obj.isValid())){
                 m += obj.getFixedBugs();
                 n++;
             }
@@ -49,7 +49,7 @@ public class StatisticalAnalysis {
         Node obj = null;
         while (it.hasNext()){
             obj = it.next();
-            if (obj.isValid()){
+            if (Boolean.TRUE.equals(obj.isValid())){
                 v += Math.pow(this.mean - obj.getFixedBugs(), 2);
                 n++;
             }
