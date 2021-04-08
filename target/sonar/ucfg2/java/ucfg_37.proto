@@ -41,7 +41,7 @@ iterator()ÿ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java% %(Û
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java% %(
-%26void"#java.io.OutputStreamWriter#flush()V*
+%28void"#java.io.OutputStreamWriter#flush()V*
 
 fwjava.io.FileWriter2flush()*
 0*˝
@@ -49,11 +49,11 @@ iterator()ÿ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java$ $($Ÿ÷
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java$ $($
-%25java.io.Writer"Kjava.io.OutputStreamWriter#append(Ljava/lang/CharSequence;)Ljava/io/Writer;*
+%27java.io.Writer"Kjava.io.OutputStreamWriter#append(Ljava/lang/CharSequence;)Ljava/io/Writer;*
 
 fwjava.io.FileWriter*
 
-%24java.lang.String2 append(Ljava/lang/CharSequence;)*
+%26java.lang.String2 append(Ljava/lang/CharSequence;)*
 5*ò
 7ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java# #(6Ÿ
@@ -62,10 +62,10 @@ iterator()ÿ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java# #(6
 fwjava.io.FileWriter"__id*
 
-%22java.io.FileWriteròï
+%24java.io.FileWriteròï
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java$ $(#
-%24java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+%26java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
 
 sbjava.lang.StringBuilder2
 toString()*
@@ -75,115 +75,115 @@ toString()*
 Ó
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java#, #(5
-%21java.io.File"__id*8*6,
+%23java.io.File"__id*8*6,
 *logic.make_csv_file_controller.FileManager"
 fileÀ»
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java#! #(+
-%22java.io.FileWriter"java.io.FileWriterÉ
+%24java.io.FileWriter"java.io.FileWriterÉ
 Ä
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java# #(6
-%23"*java.io.FileWriter#<init>(Ljava/io/File;)V*
+%25"*java.io.FileWriter#<init>(Ljava/io/File;)V*
 
-%22java.io.FileWriter*
+%24java.io.FileWriter*
 
-%21java.io.File*
-7*∞'
+%23java.io.File*
+7*¥'
 10ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (ûõ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java ((
-%6java.lang.String"7logic.dataset_manager.Node#toString()Ljava/lang/String;*#
+%8java.lang.String"7logic.dataset_manager.Node#toString()Ljava/lang/String;*#
 !
 objlogic.dataset_manager.Node2
 toString()ﬂ‹
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java ()
-%7java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
 
 sbjava.lang.StringBuilder*
 
-%6java.lang.String2append(Ljava/lang/String;)Ã…
+%8java.lang.String2append(Ljava/lang/String;)Õ 
 ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (5
-%8java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (5
+%10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
 
-%7java.lang.StringBuilder*
-,2append(Ljava/lang/String;)ª∏
+%9java.lang.StringBuilder*
+,2append(Ljava/lang/String;)ºπ
 ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (,
-%9java.lang.Double"Flogic.dataset_analysis.StatisticalAnalysis#getMean()Ljava/lang/Double;*2
+ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (,
+%11java.lang.Double"Flogic.dataset_analysis.StatisticalAnalysis#getMean()Ljava/lang/Double;*2
 0
-sa*logic.dataset_analysis.StatisticalAnalysis2	getMean()äá
+sa*logic.dataset_analysis.StatisticalAnalysis2	getMean()ãà
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (7
-%10java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
-
-%9java.lang.Double2
-toString()·ﬁ
+%12java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
+
+%11java.lang.Double2
+toString()‚ﬂ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (8
-%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
-
-%8java.lang.StringBuilder*
+%13java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+
+%10java.lang.StringBuilder*
 
-%10java.lang.String2append(Ljava/lang/String;)ŒÀ
+%12java.lang.String2append(Ljava/lang/String;)ŒÀ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (D
-%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+%14java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
 
-%11java.lang.StringBuilder*
+%13java.lang.StringBuilder*
 ,2append(Ljava/lang/String;)÷”
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (9
-%13java.lang.Double"Slogic.dataset_analysis.StatisticalAnalysis#getUpperControlLimit()Ljava/lang/Double;*2
+%15java.lang.Double"Slogic.dataset_analysis.StatisticalAnalysis#getUpperControlLimit()Ljava/lang/Double;*2
 0
 sa*logic.dataset_analysis.StatisticalAnalysis2getUpperControlLimit()ãà
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (D
-%14java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
+%16java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
 
-%13java.lang.Double2
+%15java.lang.Double2
 toString()‚ﬂ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (E
-%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+%17java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
 
-%12java.lang.StringBuilder*
+%14java.lang.StringBuilder*
 
-%14java.lang.String2append(Ljava/lang/String;)ŒÀ
+%16java.lang.String2append(Ljava/lang/String;)ŒÀ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (Q
-%16java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+%18java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
 
-%15java.lang.StringBuilder*
+%17java.lang.StringBuilder*
 ,2append(Ljava/lang/String;)÷”
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (9
-%17java.lang.Double"Slogic.dataset_analysis.StatisticalAnalysis#getLowerControlLimit()Ljava/lang/Double;*2
+%19java.lang.Double"Slogic.dataset_analysis.StatisticalAnalysis#getLowerControlLimit()Ljava/lang/Double;*2
 0
 sa*logic.dataset_analysis.StatisticalAnalysis2getLowerControlLimit()ãà
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java  (D
-%18java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
+%20java.lang.String"-java.lang.Double#toString()Ljava/lang/String;*
 
-%17java.lang.Double2
+%19java.lang.Double2
 toString()‚ﬂ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (E
-%19java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+%21java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
 
-%16java.lang.StringBuilder*
+%18java.lang.StringBuilder*
 
-%18java.lang.String2append(Ljava/lang/String;)œÃ
+%20java.lang.String2append(Ljava/lang/String;)œÃ
 ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (R
-%20java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
+%22java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;* 
 
-%19java.lang.StringBuilder*
+%21java.lang.StringBuilder*
 \n2append(Ljava/lang/String;)*
-12*∆
+12*ª
 11ñ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (èå
 ñ
@@ -196,12 +196,24 @@ toString()‚ﬂ
 ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (!
 objlogic.dataset_manager.Node"__id*"
  
-%4logic.dataset_manager.Nodeûõ
+%4logic.dataset_manager.Node√
+¿
 ñ
-ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (
-%5java.lang.Boolean"7logic.dataset_manager.Node#isValid()Ljava/lang/Boolean;*#
+ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (
+%5java.lang.Boolean"__id*
+""ûõ
+ñ
+ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java$ (1
+%6java.lang.Boolean"7logic.dataset_manager.Node#isValid()Ljava/lang/Boolean;*#
 !
-objlogic.dataset_manager.Node2	isValid()*
+objlogic.dataset_manager.Node2	isValid()¨©
+ñ
+ã/home/luca/Scrivania/ISW2/deliverables/deliverable1/deliverable1_utility_code/src/main/java/logic/make_csv_file_controller/FileManager.java (2
+%7boolean"-java.lang.Boolean#equals(Ljava/lang/Object;)Z*
+
+%5java.lang.Boolean*
+
+%6java.lang.Boolean2equals(Ljava/lang/Object;)*
 10
 12*∂
 0 "Æ

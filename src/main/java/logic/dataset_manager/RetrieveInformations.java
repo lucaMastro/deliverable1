@@ -3,8 +3,6 @@ package logic.dataset_manager;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-
-import logic.make_csv_file_controller.FileManager;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
@@ -21,7 +19,7 @@ public class RetrieveInformations {
     private Integer total;
 
 
-    public RetrieveInformations(String projName, String pathToFile) throws IOException {
+    public RetrieveInformations(String projName) throws IOException {
 
         this.projectName = projName;
         this.jsonArray = new JSONArray();

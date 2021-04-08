@@ -491,10 +491,7 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 readAll(Ljava/io/Reader;)Vlogic.dataset_manager.RetrieveInformations#readAll(Ljava/io/Reader;)Ljava/lang/String;Š
 #readJsonFromUrl(Ljava/lang/String;)clogic.dataset_manager.RetrieveInformations#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;_
 getJsonArray()Mlogic.dataset_manager.RetrieveInformations#getJsonArray()Lorg/json/JSONArray;ˆ
-,<init>(Ljava/lang/String;Ljava/lang/String;)Xlogic.dataset_manager.RetrieveInformations#<init>(Ljava/lang/String;Ljava/lang/String;)V„
-*logic.make_csv_file_controller.FileManagerjava.lang.ObjectÝ
-VwriteToFile(Llogic/dataset_manager/MySet;Llogic/dataset_analysis/StatisticalAnalysis;)‚logic.make_csv_file_controller.FileManager#writeToFile(Llogic/dataset_manager/MySet;Llogic/dataset_analysis/StatisticalAnalysis;)Vd
-<init>(Ljava/lang/String;)Flogic.make_csv_file_controller.FileManager#<init>(Ljava/lang/String;)VÖ
+,<init>(Ljava/lang/String;Ljava/lang/String;)Xlogic.dataset_manager.RetrieveInformations#<init>(Ljava/lang/String;Ljava/lang/String;)VÖ
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;ö2
@@ -1109,7 +1106,10 @@ toString()8logic.dataset_manager.MySet#toString()Ljava/lang/String;C
 computeUpperControlLimit()Flogic.dataset_analysis.StatisticalAnalysis#computeUpperControlLimit()VŒ
 .computeVariance(Llogic/dataset_manager/MySet;)Zlogic.dataset_analysis.StatisticalAnalysis#computeVariance(Llogic/dataset_manager/MySet;)Vz
 %<init>(Llogic/dataset_manager/MySet;)Qlogic.dataset_analysis.StatisticalAnalysis#<init>(Llogic/dataset_manager/MySet;)Vd
-computeLowerControlLimit()Flogic.dataset_analysis.StatisticalAnalysis#computeLowerControlLimit()V¡
+computeLowerControlLimit()Flogic.dataset_analysis.StatisticalAnalysis#computeLowerControlLimit()V„
+*logic.make_csv_file_controller.FileManagerjava.lang.ObjectÝ
+VwriteToFile(Llogic/dataset_manager/MySet;Llogic/dataset_analysis/StatisticalAnalysis;)‚logic.make_csv_file_controller.FileManager#writeToFile(Llogic/dataset_manager/MySet;Llogic/dataset_analysis/StatisticalAnalysis;)Vd
+<init>(Ljava/lang/String;)Flogic.make_csv_file_controller.FileManager#<init>(Ljava/lang/String;)V¡
 logic.dataset_manager.Nodejava.lang.Objecth
 $setTotalCommits(Ljava/lang/Integer;)@logic.dataset_manager.Node#setTotalCommits(Ljava/lang/Integer;)VN
 getFixedBugs()<logic.dataset_manager.Node#getFixedBugs()Ljava/lang/Integer;T
@@ -1425,7 +1425,28 @@ Oformat(Ljava/math/BigDecimal;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)
 !getNegativePrefixFieldPositions()Sjava.text.DecimalFormat#getNegativePrefixFieldPositions()[Ljava/text/FieldPosition;T
 getPositivePrefix()=java.text.DecimalFormat#getPositivePrefix()Ljava/lang/String;d
 getBigDecimalMultiplier()Gjava.text.DecimalFormat#getBigDecimalMultiplier()Ljava/math/BigDecimal;[
-isDecimalSeparatorAlwaysShown()8java.text.DecimalFormat#isDecimalSeparatorAlwaysShown()Z¯
+isDecimalSeparatorAlwaysShown()8java.text.DecimalFormat#isDecimalSeparatorAlwaysShown()Z”	
+java.lang.Booleanjava.lang.Comparablejava.lang.Objectjava.io.Serializable_
+valueOf(Ljava/lang/String;)@java.lang.Boolean#valueOf(Ljava/lang/String;)Ljava/lang/Boolean;W
+ parseBoolean(Ljava/lang/String;)3java.lang.Boolean#parseBoolean(Ljava/lang/String;)ZK
+equals(Ljava/lang/Object;)-java.lang.Boolean#equals(Ljava/lang/Object;)Z3
+booleanValue()!java.lang.Boolean#booleanValue()Z<
+
+toString().java.lang.Boolean#toString()Ljava/lang/String;>
+toString(Z)/java.lang.Boolean#toString(Z)Ljava/lang/String;=
+
+valueOf(Z)/java.lang.Boolean#valueOf(Z)Ljava/lang/Boolean;1
+logicalOr(ZZ) java.lang.Boolean#logicalOr(ZZ)Z+
+
+hashCode()java.lang.Boolean#hashCode()I3
+logicalXor(ZZ)!java.lang.Boolean#logicalXor(ZZ)Z-
+compare(ZZ)java.lang.Boolean#compare(ZZ)I-
+hashCode(Z)java.lang.Boolean#hashCode(Z)I3
+logicalAnd(ZZ)!java.lang.Boolean#logicalAnd(ZZ)ZS
+compareTo(Ljava/lang/Boolean;)1java.lang.Boolean#compareTo(Ljava/lang/Boolean;)IK
+<init>(Ljava/lang/String;)-java.lang.Boolean#<init>(Ljava/lang/String;)V)
+	<init>(Z)java.lang.Boolean#<init>(Z)VS
+getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z¯
  org.decimal4j.util.DoubleRounderjava.lang.ObjectZ
 equals(Ljava/lang/Object;)<org.decimal4j.util.DoubleRounder#equals(Ljava/lang/Object;)Z6
 round(D)*org.decimal4j.util.DoubleRounder#round(D)D¨

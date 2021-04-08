@@ -36,8 +36,10 @@ public class StatisticalAnalysis {
                 n++;
             }
         }
-        m /= n;
-        this.mean = DoubleRounder.round(m, 3);
+        if (n != 0) {
+            m /= n;
+            this.mean = DoubleRounder.round(m, 3);
+        }
 
     }
 
@@ -54,8 +56,10 @@ public class StatisticalAnalysis {
                 n++;
             }
         }
-        v /= n;
-        this.variance = DoubleRounder.round(v, 3);
+        if (n != 0) {
+            v /= n;
+            this.variance = DoubleRounder.round(v, 3);
+        }
     }
 
     private void computeUpperControlLimit(){

@@ -9,17 +9,15 @@ import java.io.IOException;
 
 public class Controller {
 
-
-
     public static void main(String[] args) throws IOException, JSONException {
         String projectName = ConfigurationManager.getConfigEntry("projectName");
         String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
-        RetrieveInformations fixedBugs = new RetrieveInformations(projectName, pathFile);
+        RetrieveInformations fixedBugs = new RetrieveInformations(projectName);
         MySet mySet = new MySet(fixedBugs.getJsonArray());
         String cmd = ConfigurationManager.getConfigEntry("gitCommand");
         mySet.supplementsData(cmd);
         StatisticalAnalysis sa = new StatisticalAnalysis(mySet);
-        FileManager fm = new FileManager(ConfigurationManager.getConfigEntry("outputFilePath"));
+        FileManager fm = new FileManager(pathFile);
         fm.writeToFile(mySet, sa);
     }
 
