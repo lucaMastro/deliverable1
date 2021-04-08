@@ -1,43 +1,87 @@
 package logic.dataset_analysis;
 
-import logic.dataset_manager.MyMap;
+import logic.dataset_manager.MySet;
+import logic.dataset_manager.Node;
+import org.decimal4j.util.DoubleRounder;
 
-import java.util.Map;
+import java.util.Iterator;
 
 public class StatisticalAnalysis {
     /* This class is used to compute mean and std-dev of dataset. Inother, it validate entries:
      *  if in a month there aren't at least THRESOLD commit.
      *  Note: THRESHOLD is a conf variable. */
 
-    private String stringToWrite;
+    protected Double mean;
+    protected Double variance;
+    protected Double upperControlLimit;
+    protected Double lowerControlLimit;
 
-    public String getStringToWrite() {
-        return stringToWrite;
+    public StatisticalAnalysis(MySet mySet){
+        this.computeMean(mySet);
+        this.computeVariance(mySet);
+        this.computeUpperControlLimit();
+        this.computeLowerControlLimit();
     }
 
-    public void setStringToWrite(String stringToWrite) {
-        this.stringToWrite = stringToWrite;
-    }
 
-    public void makeCsvTest(MyMap fixedBugMap, MyMap allCommitMap) {
-        String key;
-        StringBuilder text = new StringBuilder("date,fixed bugs,all commit,use it in data-analysis(1 = y; 0 = n)\n");
-        Integer value;
-        Integer fixedBugs;
-        for (Map.Entry<String, Integer> entry : fixedBugMap.entrySet()) {
-            key = entry.getKey();
-            text.append(key).append(",");
-            fixedBugs = entry.getValue();
-            value = allCommitMap.get(key);
-            text.append(fixedBugs.toString()).append(",").append(value.toString()).append(",");
-            if (value < 5)
-                text.append("0");
-            else
-                text.append("1");
-            text.append("\n");
+    private void computeMean(MySet set) {
+        Integer n = 0;
+        Double m = 0.0;
+        Iterator<Node> it = set.iterator();
+        Node obj = null;
+        while (it.hasNext()){
+            obj = it.next();
+            if (obj.isValid()){
+                m += obj.getFixedBugs();
+                n++;
+            }
         }
-        this.setStringToWrite(text.toString());
+        m /= n;
+        this.mean = DoubleRounder.round(m, 3);
 
     }
 
+    private void computeVariance(MySet set){
+        Integer n = 0;
+
+        Double v = 0.0;
+        Iterator<Node> it = set.iterator();
+        Node obj = null;
+        while (it.hasNext()){
+            obj = it.next();
+            if (obj.isValid()){
+                v += Math.pow(this.mean - obj.getFixedBugs(), 2);
+                n++;
+            }
+        }
+        v /= n;
+        this.variance = DoubleRounder.round(v, 3);
+    }
+
+    private void computeUpperControlLimit(){
+        Double ucl = this.mean + 3 * this.variance;
+        this.upperControlLimit = DoubleRounder.round(ucl, 3);
+    }
+
+    private void computeLowerControlLimit(){
+        /* it has not sense to put negative values in the "fixed bugs" */
+        Double lcl = this.mean - 3 * this.variance;
+        this.lowerControlLimit = lcl <= 0 ? 0 : DoubleRounder.round(lcl, 3);
+    }
+
+    public Double getMean() {
+        return mean;
+    }
+
+    public Double getVariance() {
+        return variance;
+    }
+
+    public Double getUpperControlLimit() {
+        return upperControlLimit;
+    }
+
+    public Double getLowerControlLimit() {
+        return lowerControlLimit;
+    }
 }

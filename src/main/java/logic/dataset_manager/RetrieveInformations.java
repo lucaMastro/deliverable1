@@ -3,22 +3,26 @@ package logic.dataset_manager;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
 
-import logic.config_manager.ConfigurationManager;
-import logic.dataset_analysis.StatisticalAnalysis;
+import logic.make_csv_file_controller.FileManager;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
-public class RetrieveTicketsID {
+public class RetrieveInformations {
 
     private FileManager fileManager;
     private String projectName;
+
+    public JSONArray getJsonArray() {
+        return jsonArray;
+    }
+
     private JSONArray jsonArray;
     private Integer total;
 
-    public RetrieveTicketsID(String projName, String pathToFile) throws IOException {
+
+    public RetrieveInformations(String projName, String pathToFile) throws IOException {
 
         this.fileManager = new FileManager(pathToFile);
         this.projectName = projName;
@@ -78,20 +82,8 @@ public class RetrieveTicketsID {
         }
     }
 
-   public static void main(String[] args) throws IOException, JSONException {
-        String projectName = ConfigurationManager.getConfigEntry("projectName");
-        String pathFile = ConfigurationManager.getConfigEntry("outputFilePath");
-        RetrieveTicketsID fixedBugs = new RetrieveTicketsID(projectName, pathFile);
-        TreeMap<String, Integer> fixedBugsMap = new MyMap(fixedBugs.jsonArray);
 
-        String cmd = ConfigurationManager.getConfigEntry("gitCommand");
-        TreeMap<String, Integer> allCommitsMap = new MyMap(cmd);
 
-        StatisticalAnalysis sa = new StatisticalAnalysis();
-        sa.makeCsvTest((MyMap) fixedBugsMap, (MyMap) allCommitsMap);
-
-        fixedBugs.fileManager.writeToFile(sa.getStringToWrite());
-    }
 
 
 }

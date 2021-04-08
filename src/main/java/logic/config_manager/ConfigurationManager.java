@@ -9,6 +9,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public final class ConfigurationManager {
+    /*  Class with the aim to parse the config file. That's why it has an only static method
+    *   and no public constructors. */
 
     private ConfigurationManager(){}
 
